@@ -15,6 +15,7 @@ import { ConnexionComponent } from './connexion/connexion.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminCardsComponent } from './admin/admin-cards/admin-cards.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { FooterComponent } from './footer/footer.component';
     RulesModule,
     InscriptionModule,
     ReactiveFormsModule,
+    HttpClientModule
   
   ],
   exports: [],

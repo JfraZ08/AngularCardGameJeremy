@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column; /* Place les boutons les uns en dessous des autres */
     justify-content: center;
-    height: 100vh; /* Utilise la hauteur de la fenêtre pour centrer verticalement */
+    height: 70vh; /* Utilise la hauteur de la fenêtre pour centrer verticalement */
     align-items: center;
   }
   
