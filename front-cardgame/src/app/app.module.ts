@@ -14,6 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminCardsComponent } from './admin/admin-cards/admin-cards.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { AdminCardsComponent } from './admin/admin-cards/admin-cards.component';
     ConnexionComponent,
     AdminComponent,
     AdminCardsComponent,
+    FooterComponent,
     
   ],
   imports: [

@@ -1,0 +1,41 @@
+#inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    height: 70vh; /*Set height to viewport height */
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Updated shadow to be less intense */
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Added margin between form fields */
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4caf50; /* Green */
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  

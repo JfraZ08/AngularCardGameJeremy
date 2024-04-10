@@ -1,0 +1,34 @@
+#admin {
+    display: flex;
+    flex-direction: column; /* Place les boutons les uns en dessous des autres */
+    justify-content: center;
+    height: 100vh; /* Utilise la hauteur de la fenêtre pour centrer verticalement */
+    align-items: center;
+  }
+  
+  #admin button {
+    padding: 15px 25px;
+    font-size: 24px;
+    font-family: 'GameJot', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 20px;
+  }
+  
+#admin button:hover {background-color: #3e8e41}
+  
+#admin button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  

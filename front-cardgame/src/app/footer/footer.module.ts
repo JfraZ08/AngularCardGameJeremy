@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AdminComponent } from './admin.component';
+import { FooterComponent } from './footer.component';
 
 
 
 @NgModule({
-  declarations: [AdminComponent],
+  declarations: [FooterComponent],
   imports: [
     CommonModule
   ],
-  exports: [AdminComponent],
+  exports: [FooterComponent],
   providers: [],
   bootstrap: []
 })
-export class AdminModule { }
+export class FooterModule { }

@@ -1,11 +1,8 @@
-<form [formGroup]="ConnexionForm" (ngSubmit)="onSubmit()">
-    <label>
-        login
-        <input type="text" formControlName="login">
-    </label>
-    <label>
-        password
-        <input type="password" formControlName="password">
-    </label>
-    <button type="submit">Connexion</button>
+<section id="connexion">
+    <form [formGroup]="ConnexionForm" (ngSubmit)="onSubmit()">
+        <input type="text" formControlName="login" placeholder="Votre identifiant">
+        <input type="password" formControlName="password" placeholder="Votre mot de passe">
+    <button type="submit" routerLink="/admin">Connexion</button>
+    
 </form>
+</section>

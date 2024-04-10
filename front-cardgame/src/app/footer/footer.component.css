@@ -1,0 +1,24 @@
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'GameJot', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+footer ul {
+    list-style-type: none;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li {
+    line-height: 40px;
+    text-align: center;
+}

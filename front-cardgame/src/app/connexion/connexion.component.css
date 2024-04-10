@@ -1,0 +1,43 @@
+#connexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px 12px; /* Adjusted padding */
+    box-sizing: border-box;
+    border: none;
+    margin-top: 4px; /* Added margin-top for spacing */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Added margin-top for spacing */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
