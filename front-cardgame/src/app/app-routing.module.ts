@@ -7,6 +7,7 @@ import { ConnexionComponent } from './connexion/connexion.component';
 import { AdminCardsComponent } from './admin/admin-cards/admin-cards.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminDecksComponent } from './admin/admin-decks/admin-decks.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'connexion', component: ConnexionComponent},
   { path: 'admin', component: AdminComponent},
   { path: 'admin-cards', component: AdminCardsComponent},
-  { path: 'admin-decks', component: AdminDecksComponent}
+  { path: 'admin-decks', component: AdminDecksComponent},
+  { path: 'slider', component: SliderComponent}
 ];
 
 @NgModule({
