@@ -23,5 +23,10 @@ a {
     color: #fff;
 }
 a:hover {
-    text-decoration: underline;
+    color: red;
+    text-decoration: red underline;
+}
+
+a:active {
+    color: red;
 }

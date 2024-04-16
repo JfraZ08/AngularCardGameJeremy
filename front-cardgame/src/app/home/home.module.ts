@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
-import { SliderComponent } from '../slider/slider.component';
-import { SliderModule } from '../slider/slider.module';
+
 
 
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    SliderComponent
+    HomeComponent
     
   ],
   imports: [

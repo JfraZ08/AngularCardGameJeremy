@@ -16,7 +16,6 @@ import { AdminComponent } from './admin/admin.component';
 import { AdminCardsComponent } from './admin/admin-cards/admin-cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { SliderComponent } from './slider/slider.component';
 
 
 @NgModule({
@@ -27,7 +26,6 @@ import { SliderComponent } from './slider/slider.component';
     AdminComponent,
     AdminCardsComponent,
     FooterComponent,
-    SliderComponent,
   ],
   imports: [
     BrowserModule,

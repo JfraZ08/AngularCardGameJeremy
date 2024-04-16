@@ -17,16 +17,27 @@ h1 {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-    height: 80vh;
+    height: auto;
+    
 }
 
 #second {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #second .txt {
     align-items: center;
     height: 200px;
+}
+
+.carousel-caption {
+    bottom: 45%;
+    font-family: 'GameJot', sans-serif;
+}
+
+.carousel-caption h3 {
+    font-size: 60px;
 }
