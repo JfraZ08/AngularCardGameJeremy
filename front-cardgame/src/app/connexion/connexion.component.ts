@@ -28,7 +28,7 @@ export class ConnexionComponent {
           this.router.navigate(['/admin'])// ici direction vers page admin
         },
         error => {
-          console.error('Oups c\'est balot tu t\es trompé ma caille', error)
+          console.error(error)
         }
       )
     }
